@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.campus_comuputer.sqldatabasesample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="My Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonCmpe419"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonCmpe538"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="55dp"
+        android:text="CMPE 419"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/buttonCmpe538"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonCmpe419"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonCmpe419"
+        android:layout_marginBottom="195dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:text="CMPE 538"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+</RelativeLayout>
